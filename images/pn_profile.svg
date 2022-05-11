@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F2F2;}
+	.st1{fill:none;stroke:#FF3F00;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FF3F00;}
+	.st3{display:none;}
+	.st4{display:inline;fill:none;stroke:#FF3F00;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{display:inline;}
+	.st6{fill:none;stroke:#FF3F00;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="BG">
+	<g>
+		<circle class="st0" cx="250" cy="250" r="241.5"/>
+	</g>
+</g>
+<g id="레이어_2">
+	
+		<rect x="596.2" y="36.2" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 1368.8103 -224.9798)" class="st1" width="269.6" height="269.6"/>
+	<polygon class="st2" points="418.5,256.1 285.5,110 285.5,402.3 	"/>
+	<polygon class="st2" points="81.7,256.1 214.7,402.3 214.7,110 	"/>
+</g>
+<g id="레이어_3" class="st3">
+	<line class="st4" x1="250" y1="82" x2="250" y2="418"/>
+	<line class="st4" x1="84.6" y1="250" x2="415.4" y2="250"/>
+</g>
+<g id="레이어_4" class="st3">
+	<g class="st5">
+		<line class="st6" x1="106" y1="148" x2="394" y2="148"/>
+		<line class="st6" x1="106" y1="250" x2="394" y2="250"/>
+		<line class="st6" x1="106" y1="352" x2="394" y2="352"/>
+	</g>
+</g>
+</svg>
