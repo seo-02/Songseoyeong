@@ -120,7 +120,7 @@ $MC : "rgb(255, 63, 0)";
         overflow: hidden;
         // border: 1px solid #ff0;
         @media #{$mobile}{
-          top: 180px;
+          top: 100px;
           left:50%;
           width: 350px;
           margin-left: -175px;
@@ -199,10 +199,6 @@ $MC : "rgb(255, 63, 0)";
       height: 60px;
       margin: 0 auto;
       // border: 1px solid #00f;
-      @media #{$react}{
-        
-        width: 96%;
-      }
       @media #{$mobile}{
         width: 95%;
       }
@@ -356,7 +352,7 @@ $MC : "rgb(255, 63, 0)";
       font-size: 15px;
       @media #{$mobile} {
         bottom: 120px;
-        left: 30px;
+        left: 25px;
         width: 330px;
         font-size: 14px;
         background-color: rgba(255, 255, 255, 0.226);
@@ -459,7 +455,7 @@ $MC : "rgb(255, 63, 0)";
             content: 'HI,THERE!';
             @media #{$mobile} {
               top: -240px;
-              left: 70px;
+              left: 50px;
               font-size: 60px;
             }
           }
@@ -474,7 +470,7 @@ $MC : "rgb(255, 63, 0)";
           @media #{$mobile} {           
             width: 330px;
             margin-top: -30px;
-            font-size: 10px;
+            font-size: 9px;
             line-height: 22px;
           }
           >i{
@@ -490,7 +486,7 @@ $MC : "rgb(255, 63, 0)";
               100% {top:-20px;opacity:1;}
             }
             @media #{$mobile} {
-              font-size: 14px;
+              font-size: 12px;
             }
             >span {
               display: inline-block;
@@ -568,10 +564,6 @@ $MC : "rgb(255, 63, 0)";
     position: relative;
     height:1020px;
     width: 100%;
-    // border: 1px solid #f00;
-    @media #{$mobile}{
-      
-    }
     >h2 {
       position: absolute;
       top: 230px;
@@ -593,7 +585,7 @@ $MC : "rgb(255, 63, 0)";
         text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
         animation: fontcolor 1.2s alternate;
         @media #{$mobile}{
-          font-size: 75px;
+          font-size: 70px;
         }
         // animation-duration: 3s;
         &:nth-child(1) {animation-delay: 0.1s;}
@@ -710,7 +702,7 @@ $MC : "rgb(255, 63, 0)";
   section.project {
     position: relative;
     width: 100%;
-    // height: 4295px;
+    height: 2000px;
     border-top: 1px solid #fff;
     >.project-con {
       position: relative;
@@ -758,19 +750,20 @@ $MC : "rgb(255, 63, 0)";
       >.contents {
         display: none;
         position: absolute;
-        bottom:35px;
+        bottom: 0;
         right: 0px;
         @media #{$mobile} {
           right: 50%;
-          bottom: 180px;
+          bottom: 120px;
           width: 300px;
+          text-align: center;
           margin-right: -150px;
         }
         >ul {
           >li {
             margin-bottom: 10px;
             >a {
-              display: block;
+              display: inline;
               color: #{$grey};
               font-size: 25px;
               font-weight: 700;
@@ -794,160 +787,196 @@ $MC : "rgb(255, 63, 0)";
       }
     }//end of .project-con
     >.pj-arti-con {
+      width: 1280px;
+      height: 900px;
       display: flex;
-      flex-direction: row;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin: 0 auto;
       @media #{$mobile} {
+        width: 100%;
+        height: 1300px;
         flex-direction: column;
       }
       >article { 
         position: relative;
-        width: calc(100% / 3);
-        height: 950px;
+        width: 600px;
+        height: 400px;
         background-color: #ccc;
+        border-radius:20px;
+        overflow: hidden;
         @media #{$mobile} {
           width: 100%;
-          height: 600px;
+          height: 300px;
         }
-        >h3 {
+        >.number {
           position: absolute;
-          top: 20px;
+          left: -10px;
+          top: 15px;
           color: #ccc;
-          font-size: 150px;
+          font-size: 100px;
+          font-weight: 600;
           z-index: 200;
           @media #{$mobile} {
-            font-size: 90px;
             left: 50%;
-            margin-left: -50px;
+            top: 15px;
+            margin-left: -40px;
+            font-size: 60px;
           }
         }
         >.title {
+          display: none;
           position: absolute;
-          top:25%;
-          right:12%;
+          top:15%;
+          right:10%;
+          color: white;
           font-size: 24px;
           font-weight: 700;
           margin-bottom: 60px;
           z-index: 100;
           @media #{$mobile} {
-            width: 310px;
-            top:25%;
-            left: 35px;
-            text-align: center;
+            top: 90px;
+            right: initial;
+            width: 100%;
             font-size: 20px;
+            text-align: center;
           }
         }
         >.article-con {
           position: absolute;
-          top: 40px;
+          top: 50%;
           left: 50%;
-          width: 88%;
-          height: 870px;
-          margin-left: -44%;
-          background-color: #fff;
+          width: 560px;
+          height: 360px;
+          margin: -180px 0 0 -280px;
+          border-radius:20px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-blend-mode: multiply;
           @media #{$mobile} {
-            top: 20px;
-            height: 560px;
+            width:92%;
+            height: 270px;
+            top:5%;
+            left: 4%;
+            margin: 0;
           }
           >ul {
+            display: none;
             position: absolute;
-            bottom: 18%;
+            bottom: 7%;
             left: 7%;
             @media #{$mobile} {
-              
+              bottom: initial;
+              top: 150px;
+              left: initial;
+              right: 7%;
             }
             >li {
+              margin-bottom: 10px;
+              color: white;
               font-size: 15px;
               text-align: left;
-              margin-bottom: 10px;
               @media #{$mobile} {
-                font-size: 13px;
+                width: 100%;
                 margin-bottom: 5px;
+                font-size: 14px;
+                text-align: right;
+              }
+              >a {
+                display: block;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                text-shadow: 1px 0px rgb(255, 63,0),-1px 0px rgb(255, 63,0),0px 1px rgb(255, 63,0),0px -1px rgb(255, 63,0);
+                @media #{$mobile} {
+                  font-size: 16px;
+                }
               }
             }
           }
           >ol {
+            display: none;
             position: absolute;
-            left: 50%;
-            width: 86%;
+            right: 7%;
+            width: 100px;
             bottom: 30px; 
-            display: flex;
-            justify-content: space-between;
+            justify-content: end;
             flex-wrap: wrap;
-            margin-left: -43%;
             @media #{$mobile} {
-              bottom: 20px;
+              bottom: 2%; 
+              width: 88%;
+              justify-content: space-between;
             }
-            
             >li {
+              margin-bottom: 10px;
               padding: 7px 15px;
               box-shadow: 3px 3px #{$MC};
               background-color: #{$grey};
               border-radius: 13px;
-              margin-bottom: 10px;
               @media #{$mobile} {
-                padding: 5px 10px;
-                font-size: 12px;
+                padding: 5px 8px;
+                font-size: 9px;
                 box-shadow: 2px 2px #{$MC};
               }
             }
           }
-          >.page {
-            position: absolute;
-            top: 320px;
-            left: 50%;
-            width: 88%;
-            margin-left: -44%;
-            overflow: hidden;
-            @media #{$mobile} {
-              top: 175px;
-            }
-            >a {
-              display: block;
-              height: 240px;
-              margin-top:0px;
-              @media #{$mobile} {
-                height: 160px;
-                margin-top: 0;
-              }
-              >img {
-                width: 100%;
-                transition: all 0.3s;
-              }
-            }
-            &:hover {
-              outline: 5px solid rgb(66, 66, 66);
-              >a >img {
-                transform: scale(1.1);
-              }
-            }
-          }//end of .page
           >.process {
+            display: none;
             position: absolute;
             right: 7%;
-            top: 260px;
-            font-size: 24px;
+            top: 20%;
+            
+            font-size: 20px;
             font-weight: 600;
-            &:hover > a {
-              color: #fff;
+            >a {
+              color: white;
               text-shadow: 1px 0px rgb(255, 63,0),-1px 0px rgb(255, 63,0),0px 1px rgb(255, 63,0),0px -1px rgb(255, 63,0);
             }
             @media #{$mobile} {
-              top: 350px;
-              font-size: 18px;
+              top: 110px;
+              right: initial;
+              left: 7%;
+              font-size: 16px;
             }
           }
         }//end of .article-con
-        &.Anobrand:hover{
-          background-color: rgb(255, 217, 0);
-          >h3 {color: rgb(255, 217, 0);}
+        &.Anobrand {
+          >.article-con {
+            background-image: url(./../images/nobrand_page.png);
+          }
+          &:hover {
+            background-color: rgb(255, 217, 0);
+            >.number {color: rgb(255, 217, 0);}
+          }
         }
-        &.Aorion:hover{
-          background-color: red;
-          >h3 {color: red;}
+        &.Aorion {
+          >.article-con {
+            background-image: url(./../images/orion_page.png);
+          }
+          &:hover {
+            background-color: red;
+            >.number {color: red;}
+          }
         }
-        &.Ala:hover{
-          background-color: orange;
-          >h3 {color: orange;}
+        &.Ala {
+          >.article-con {
+            background-image: url(./../images/trip_la_page.png);
+          }
+          &:hover {
+            background-color: orange;
+          >.number {color: orange;}
+          }
+        }
+        &.Amonami {
+          >.article-con {
+            background-image: url(./../images/monami_page.png);
+            background-color: #fff;
+          }
+          &:hover {
+            background-color: rgb(39, 197, 0);
+            >.number {color: rgb(39, 197, 0);}
+          }
         }
       }//end of article
     }
