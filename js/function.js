@@ -36,9 +36,9 @@ $(function(){
         },500)
         
         // 자동스크롤다운
-        $('html,body').delay(5000).animate({
-            scrollTop:$('header').offset().top
-        },600);
+        // $('html,body').delay(5000).animate({
+        //     scrollTop:$('header').offset().top
+        // },600);
 
         let now = new Date();
         let year = now.getFullYear();
@@ -219,16 +219,26 @@ $(function(){
             scrollTop : arrProject[IDX] - 60
         }); 
     });
+    $PJarticle.on('mouseover',function(){
+        $(this).find('.article-con').css({
+            backgroundColor:'rgba(0,0,0,0.8)'
+        });
+        $(this).find('.title,ul,.process').css({
+            display:'block'
+        });
+        $(this).find('ol').css({
+            display:'flex'
+        });
+    });
+    $PJarticle.on('mouseout',function(){
+        $(this).find('.article-con').css({
+            backgroundColor:'rgba(0,0,0,0)'
+        });
+        $(this).find('.title,ul,.process,ol').css({
+            display:'none'
+        });
+    });
 
-    //clone css
-    // const $clone = $('section.clone > .clone-con > .clone-contents > article > p > a');
-    // const $cloneCon = $('section.clone > .clone-con > .clone-contents > article');
-
-    // $clone.on('mouseover',function(){
-    //     $cloneCon.css({
-    //         backgroundColor :'#ccc'
-    //     },200);
-    // });
 
     //스크롤 맨위로
     const $aside = $('aside > .plus');
