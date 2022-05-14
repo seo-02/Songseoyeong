@@ -46,7 +46,7 @@ $(function(){
         let date = now.getDate();
         const days = ['SUN',' M0N', 'TUE', 'WED', 'THU','FRI', 'SAT'];
         let day = days[now.getDay()]
-        $('.visual>.visualTop>.date').text(year+'. '+month+'. '+date+'.'+day);
+        $('.visual>.visualTop>.date').text(year+'. '+month+'. '+date+'. '+day);
     });
     
 
