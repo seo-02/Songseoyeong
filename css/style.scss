@@ -195,7 +195,7 @@ $MC : "rgb(255, 63, 0)";
     z-index: 1000;
     >.header-con {
       position: relative;
-      width:1820px;
+      width:1680px;
       height: 60px;
       margin: 0 auto;
       // border: 1px solid #00f;
@@ -205,9 +205,13 @@ $MC : "rgb(255, 63, 0)";
       >h2 {
         position: absolute;
         top: 10px;
-        left: 0;
+        left:50px;
+        @media #{$mobile}{
+          left: 0;
+        }
         >a {
           display: block;
+          
           padding: 4px 25px;
           color: #{$MC};
           font-size: 20px;
@@ -219,7 +223,7 @@ $MC : "rgb(255, 63, 0)";
         display: block;
         position: absolute;
         top: 20px;
-        right: 0;
+        right: 50px;
         @media #{$mobile}{
           width: 100%;
           
@@ -354,7 +358,7 @@ $MC : "rgb(255, 63, 0)";
         bottom: 120px;
         left: 25px;
         width: 330px;
-        font-size: 14px;
+        font-size: 14px; 
         background-color: rgba(255, 255, 255, 0.226);
       }
       >.profile-con {
