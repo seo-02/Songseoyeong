@@ -234,7 +234,7 @@
 
 #wrap header > .header-con {
   position: relative;
-  width: 1820px;
+  width: 1680px;
   height: 60px;
   margin: 0 auto;
 }
@@ -248,7 +248,13 @@
 #wrap header > .header-con > h2 {
   position: absolute;
   top: 10px;
-  left: 0;
+  left: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  #wrap header > .header-con > h2 {
+    left: 0;
+  }
 }
 
 #wrap header > .header-con > h2 > a {
@@ -264,7 +270,7 @@
   display: block;
   position: absolute;
   top: 20px;
-  right: 0;
+  right: 50px;
 }
 
 @media screen and (max-width: 480px) {
