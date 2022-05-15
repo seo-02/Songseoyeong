@@ -52,7 +52,7 @@
   font-weight: 600;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap h1 > a {
     top: 10px;
   }
@@ -70,12 +70,6 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1900px) {
-  #wrap article.visual > .visualTop {
-    width: 96%;
-  }
-}
-
 #wrap article.visual > .visualTop > span {
   position: absolute;
   color: white;
@@ -84,20 +78,20 @@
 }
 
 #wrap article.visual > .visualTop > span:first-child {
-  left: 1%;
+  left: 5%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualTop > span:first-child {
     display: none;
   }
 }
 
 #wrap article.visual > .visualTop > span.date {
-  right: 1%;
+  right: 5%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualTop > span.date {
     display: none;
   }
@@ -105,13 +99,18 @@
 
 #wrap article.visual > .visualTop > span.line {
   top: 70px;
+  left: 50%;
   display: block;
-  width: 100%;
+  width: 90%;
+  margin-left: -45%;
   border-bottom: 2px solid rgb(180, 180, 180);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualTop > span.line {
+    width: 100%;
+    left: initial;
+    margin-left: initial;
     top: 60px;
   }
 }
@@ -124,9 +123,9 @@
   color: white;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen {
-    width: 96%;
+    width: 100%;
   }
 }
 
@@ -139,7 +138,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con {
     top: 100px;
     left: 50%;
@@ -154,7 +153,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con > p {
     right: 400px;
     width: 350px;
@@ -169,7 +168,7 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con > p:first-child {
     font-size: 30px;
   }
@@ -183,7 +182,7 @@
   text-shadow: 3px 1px rgb(180, 180, 180);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con > p.vsc-one {
     font-size: 50px;
   }
@@ -198,7 +197,7 @@
   text-shadow: 3px 1px rgb(180, 180, 180);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con > p.vsc-two {
     font-size: 50px;
   }
@@ -210,7 +209,7 @@
   font-size: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap article.visual > .visualCen > .vsc-con > p:last-child {
     bottom: 40px;
     width: 100%;
@@ -239,7 +238,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con {
     width: 95%;
   }
@@ -251,7 +250,7 @@
   left: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > h2 {
     left: 0;
   }
@@ -273,7 +272,7 @@
   right: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > nav {
     width: 100%;
     display: none;
@@ -293,7 +292,7 @@
           justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > nav > .gnb {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -306,7 +305,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > nav > .gnb > li {
     width: 100%;
     padding: 10px 0;
@@ -331,7 +330,7 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > .btn-gnb {
     display: block;
     background: none;
@@ -354,7 +353,7 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > .sub {
     display: none;
     position: relative;
@@ -365,7 +364,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > .sub > .sub-gnb {
     position: absolute;
     top: 50%;
@@ -375,7 +374,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > .sub > .sub-gnb > li {
     height: 45px;
     line-height: 45px;
@@ -384,7 +383,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap header > .header-con > .sub > .sub-gnb > li > a {
     color: white;
   }
@@ -411,7 +410,7 @@
   opacity: 0.7;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > h2 {
     top: 700px;
     left: 30px;
@@ -431,7 +430,7 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .profile {
     bottom: 120px;
     left: 25px;
@@ -452,7 +451,7 @@
   text-align: left;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .profile > .profile-con > table {
     font-size: 13px;
   }
@@ -484,7 +483,7 @@
   background-image: url(./../images/pn_hover_profile.svg);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .profile > .profile-btn {
     top: -30px;
     right: 0;
@@ -503,7 +502,7 @@
   margin-right: -800px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .image {
     width: 95%;
     right: 12px;
@@ -518,7 +517,7 @@
           box-shadow: 15px 15px rgb(180, 180, 180);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .image > img {
     width: 98%;
     -webkit-box-shadow: 10px 10px rgb(180, 180, 180);
@@ -532,7 +531,7 @@
   margin-left: -780px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p {
     left: 0;
     width: 550px;
@@ -547,11 +546,9 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(1) {
-    top: 330px;
-    left: 30px;
-    font-size: 18px;
+    display: none;
   }
 }
 
@@ -563,28 +560,19 @@
   content: 'HI,THERE!';
 }
 
-@media screen and (max-width: 480px) {
-  #wrap section.aboutMe > .introduce > p:nth-of-type(1)::before {
-    top: -240px;
-    left: 50px;
-    font-size: 60px;
-  }
-}
-
 #wrap section.aboutMe > .introduce > p:nth-of-type(2) {
   position: relative;
   top: 600px;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  z-index: -1;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(2) {
-    width: 330px;
-    margin-top: -30px;
-    font-size: 9px;
+    top: 450px;
+    left: 30px;
+    font-size: 13px;
     line-height: 22px;
   }
 }
@@ -620,7 +608,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(2) > i {
     font-size: 12px;
   }
@@ -679,17 +667,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(2) > i > span {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #wrap section.aboutMe > .introduce > p:nth-of-type(2) {
-    top: 400px;
-    left: 30px;
-    font-size: 13px;
   }
 }
 
@@ -706,7 +686,7 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(2)::before {
     top: -20px;
     left: -20px;
@@ -730,10 +710,11 @@
           transform: rotate(180deg);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.aboutMe > .introduce > p:nth-of-type(2)::after {
     bottom: 20px;
-    left: 290px;
+    left: initial;
+    right: -10px;
     width: 50px;
     height: 50px;
   }
@@ -759,7 +740,7 @@
           animation-delay: 2.3s;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > h2 {
     top: 190px;
     width: 95%;
@@ -776,7 +757,7 @@
           animation: fontcolor 1.2s alternate;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > h2 > span {
     font-size: 70px;
   }
@@ -919,7 +900,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > .programs {
     bottom: 240px;
     left: 50%;
@@ -933,7 +914,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > .programs > li {
     height: 35px;
     font-size: 13px;
@@ -989,7 +970,7 @@
   margin-left: -550px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > .score {
     width: 89%;
     left: 5%;
@@ -1005,7 +986,7 @@
   background: linear-gradient(to bottom, #ff3f00 12%, white 100%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.skill > .score > span {
     width: 35px;
   }
@@ -1026,7 +1007,7 @@
   margin: 270px 0 300px -775px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .project-con {
     left: 0;
     width: 100%;
@@ -1045,7 +1026,7 @@
   text-shadow: 5px 0px rgb(255, 63, 0);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .project-con > h2 {
     width: 100%;
     font-size: 50px;
@@ -1060,7 +1041,7 @@
   text-shadow: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .project-con > h2 > span {
     display: block;
     font-size: 24px;
@@ -1080,7 +1061,7 @@
   right: 0px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .project-con > .contents {
     right: 50%;
     bottom: 120px;
@@ -1105,7 +1086,7 @@
   transition: color 0.2s;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .project-con > .contents > ul > li > a {
     font-size: 16px;
     text-align: center;
@@ -1136,7 +1117,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con {
     width: 100%;
     height: 1300px;
@@ -1156,10 +1137,12 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article {
-    width: 100%;
+    left: 50%;
+    width: 80%;
     height: 300px;
+    margin-left: -40%;
   }
 }
 
@@ -1173,7 +1156,7 @@
   z-index: 200;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .number {
     left: 50%;
     top: 15px;
@@ -1194,7 +1177,7 @@
   z-index: 100;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .title {
     top: 90px;
     right: initial;
@@ -1218,7 +1201,7 @@
   background-blend-mode: multiply;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con {
     width: 92%;
     height: 270px;
@@ -1235,7 +1218,7 @@
   left: 7%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > ul {
     bottom: initial;
     top: 150px;
@@ -1251,7 +1234,7 @@
   text-align: left;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > ul > li {
     width: 100%;
     margin-bottom: 5px;
@@ -1268,7 +1251,7 @@
   text-shadow: 1px 0px #ff3f00, -1px 0px #ff3f00, 0px 1px #ff3f00, 0px -1px #ff3f00;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > ul > li > a {
     font-size: 16px;
   }
@@ -1287,7 +1270,7 @@
       flex-wrap: wrap;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > ol {
     bottom: 2%;
     width: 88%;
@@ -1306,7 +1289,7 @@
   border-radius: 13px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > ol > li {
     padding: 5px 8px;
     font-size: 9px;
@@ -1329,7 +1312,7 @@
   text-shadow: 1px 0px #ff3f00, -1px 0px #ff3f00, 0px 1px #ff3f00, 0px -1px #ff3f00;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.project > .pj-arti-con > article > .article-con > .process {
     top: 110px;
     right: initial;
@@ -1393,7 +1376,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone {
     height: 1400px;
   }
@@ -1408,7 +1391,7 @@
   margin-left: -45%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con {
     top: 100px;
   }
@@ -1423,14 +1406,14 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > p {
     font-size: 20px;
     line-height: 30px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > p > span {
     display: block;
   }
@@ -1450,7 +1433,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > .clone-contents {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1466,7 +1449,7 @@
   height: 420px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > .clone-contents > article {
     top: 0px;
     width: 100%;
@@ -1484,7 +1467,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > .clone-contents > article > h3 {
     bottom: 70px;
     font-weight: 20px;
@@ -1502,7 +1485,7 @@
   background-position: center center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > .clone-contents > article > p {
     width: 100%;
   }
@@ -1518,7 +1501,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.clone > .clone-con > .clone-contents > article > p > a {
     left: 50%;
     margin-left: -130px;
@@ -1553,7 +1536,7 @@
   padding: 50px 0 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con {
     height: 600px;
   }
@@ -1574,7 +1557,7 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .contact-top > h2 {
     top: 30px;
     font-size: 32px;
@@ -1586,7 +1569,7 @@
   top: 150px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .contact-top > .contact-left {
     top: 100px;
   }
@@ -1601,14 +1584,18 @@
   text-align: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .contact-top > .contact-left > p {
     width: 340px;
     font-size: 24px;
   }
 }
 
-#wrap section.contact > .contact-con > .contact-top > .contact-left > p > i {
+#wrap section.contact > .contact-con > .contact-top > .contact-left > p > a {
+  color: grey;
+}
+
+#wrap section.contact > .contact-con > .contact-top > .contact-left > p > a > i {
   position: absolute;
   left: 0;
 }
@@ -1617,15 +1604,9 @@
   position: absolute;
   top: 60px;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 445px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .contact-top > .file {
     top: 220px;
     width: 100%;
@@ -1635,18 +1616,18 @@
   }
 }
 
-#wrap section.contact > .contact-con > .contact-top > .file > li {
-  width: 200px;
+#wrap section.contact > .contact-con > .contact-top > .file > p {
+  width: 150px;
   border-radius: 20px;
 }
 
-@media screen and (max-width: 480px) {
-  #wrap section.contact > .contact-con > .contact-top > .file > li {
+@media screen and (max-width: 640px) {
+  #wrap section.contact > .contact-con > .contact-top > .file > p {
     width: 160px;
   }
 }
 
-#wrap section.contact > .contact-con > .contact-top > .file > li > a {
+#wrap section.contact > .contact-con > .contact-top > .file > p > a {
   display: block;
   padding: 20px 0;
   font-size: 20px;
@@ -1658,7 +1639,7 @@
   transition: all 0.3s;
 }
 
-#wrap section.contact > .contact-con > .contact-top > .file > li:hover > a {
+#wrap section.contact > .contact-con > .contact-top > .file > p:hover > a {
   background-color: #fff;
   border: 4px solid rgb(255, 63, 0);
 }
@@ -1671,7 +1652,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .lastText {
     top: 90px;
   }
@@ -1687,7 +1668,7 @@
   letter-spacing: 3px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .lastText > p {
     font-size: 40px;
   }
@@ -1698,7 +1679,7 @@
   text-shadow: 1px 0px #e6e6e6, 0px 1px #e6e6e6, -1px 0 #e6e6e6, 0px -1px #e6e6e6;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .lastText > p.one {
     top: 20px;
   }
@@ -1709,7 +1690,7 @@
   text-shadow: 1px 0px #bebebe, 0px 1px #bebebe, -1px 0 #bebebe, 0px -1px #bebebe;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap section.contact > .contact-con > .lastText > p.two {
     top: 10px;
   }
@@ -1727,7 +1708,7 @@
   text-indent: -9999px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap aside {
     right: 50px;
     bottom: 70px;
@@ -1776,7 +1757,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #wrap footer {
     top: -50px;
     height: 0;
