@@ -6,8 +6,7 @@
   font-style: normal;
 }
 
-$react :"screen and (max-width:1900px)";
-$mobile : "screen and (max-width:480px)";
+$mobile : "screen and (max-width:640px)";
 $grey : "rgb(180, 180, 180)";
 $MC : "rgb(255, 63, 0)";
  
@@ -69,9 +68,6 @@ $MC : "rgb(255, 63, 0)";
       height: 70px;
       margin: 0 auto;
       // border: 1px solid #f00;
-      @media #{$react}{
-        width: 96%;
-      }
       >span{
         position: absolute;
         color: white;
@@ -79,23 +75,28 @@ $MC : "rgb(255, 63, 0)";
         font-size: 18px;
         
         &:first-child {
-          left: 1%;
+          left: 5%;
           @media #{$mobile}{
             display: none;
           }
         } 
         &.date {
-          right: 1%;
+          right: 5%;
           @media #{$mobile}{
             display: none;
           }
         }
         &.line {
           top: 70px;
+          left: 50%;
           display: block;
-          width: 100%;
+          width: 90%;
+          margin-left: -45%;
           border-bottom: 2px solid #{$grey};
           @media #{$mobile}{
+            width: 100%;
+            left: initial;
+            margin-left: initial;
             top: 60px;
           }
         }
@@ -107,9 +108,9 @@ $MC : "rgb(255, 63, 0)";
       height: 1010px;
       margin: 0 auto;
       color: white;
-      // border: 1px solid #f00;
-      @media #{$react}{
-        width: 96%;
+      @media #{$mobile}{
+        width: 100%;
+        // margin-left: -175px;
       }
       >.vsc-con {
         position: absolute;
@@ -440,6 +441,7 @@ $MC : "rgb(255, 63, 0)";
           width: 550px;
           margin: 0;
           // border: 1px solid #000;
+          
         }
         &:nth-of-type(1) {
           position: relative;
@@ -447,9 +449,8 @@ $MC : "rgb(255, 63, 0)";
           font-size: 20px;
           font-weight: 700;
           @media #{$mobile} {
-            top: 330px;
-            left: 30px;
-            font-size: 18px;
+
+            display: none;
           }
           &::before {
             position: absolute;
@@ -458,9 +459,7 @@ $MC : "rgb(255, 63, 0)";
             color: rgb(245, 245, 245);
             content: 'HI,THERE!';
             @media #{$mobile} {
-              top: -240px;
-              left: 50px;
-              font-size: 60px;
+
             }
           }
         }
@@ -470,11 +469,10 @@ $MC : "rgb(255, 63, 0)";
           font-size: 16px;
           font-weight: 500;
           line-height: 26px;
-          z-index: -1;
-          @media #{$mobile} {           
-            width: 330px;
-            margin-top: -30px;
-            font-size: 9px;
+          @media #{$mobile} {
+            top: 450px;
+            left: 30px;
+            font-size: 13px;
             line-height: 22px;
           }
           >i{
@@ -484,7 +482,6 @@ $MC : "rgb(255, 63, 0)";
             font-size: 20px;
             font-weight: 600;
             opacity:0;
-
             @keyframes introduce {
               0% {top:-420px;opacity:0.5;}
               100% {top:-20px;opacity:1;}
@@ -516,11 +513,7 @@ $MC : "rgb(255, 63, 0)";
               }
             }
           }
-          @media #{$mobile} {
-            top: 400px;
-            left: 30px;
-            font-size: 13px;
-          }
+
           &::before {
             position: absolute;
             top: -30px;
@@ -553,7 +546,8 @@ $MC : "rgb(255, 63, 0)";
             transform: rotate(180deg);
             @media #{$mobile} {
               bottom: 20px;
-              left: 290px;
+              left: initial;
+              right: -10px;
               width: 50px;
               height: 50px;
             }
@@ -810,8 +804,10 @@ $MC : "rgb(255, 63, 0)";
         border-radius:20px;
         overflow: hidden;
         @media #{$mobile} {
-          width: 100%;
+          left: 50%;
+          width: 80%;
           height: 300px;
+          margin-left: -40%;
         }
         >.number {
           position: absolute;
@@ -1144,9 +1140,12 @@ $MC : "rgb(255, 63, 0)";
               width: 340px;
               font-size: 24px;
             }
-            >i {
-              position: absolute;
-              left: 0;
+            >a {
+              color: grey;
+              >i {
+                position: absolute;
+                left: 0;
+              }
             }
           }
         }
@@ -1154,16 +1153,13 @@ $MC : "rgb(255, 63, 0)";
           position: absolute;
           top: 60px;
           right: 0;
-          display: flex;
-          justify-content: space-around;
-          width: 445px;
           @media #{$mobile} {
             top: 220px;
             width: 100%;
             justify-content: space-between;
           }
-          >li {
-            width: 200px;
+          >p {
+            width: 150px;
             border-radius: 20px;
             @media #{$mobile} {
               width: 160px;
