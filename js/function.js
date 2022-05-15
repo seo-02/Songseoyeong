@@ -36,9 +36,9 @@ $(function(){
         },500)
         
         // 자동스크롤다운
-        // $('html,body').delay(5000).animate({
-        //     scrollTop:$('header').offset().top
-        // },600);
+        $('html,body').delay(5000).animate({
+            scrollTop:$('header').offset().top
+        },600);
 
         let now = new Date();
         let year = now.getFullYear();
