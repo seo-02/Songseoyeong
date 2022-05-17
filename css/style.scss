@@ -64,7 +64,7 @@ $MC : "rgb(255, 63, 0)";
     background-color: rgb(25,25,25);
     >.visualTop {
       position: relative;
-      width: 1820px;
+      width: 100%;
       height: 70px;
       margin: 0 auto;
       // border: 1px solid #f00;
@@ -104,7 +104,7 @@ $MC : "rgb(255, 63, 0)";
     }//end of .visualTop
     >.visualCen{
       position: relative;
-      width: 1820px;
+      width: 100%;
       height: 1010px;
       margin: 0 auto;
       color: white;
@@ -196,7 +196,7 @@ $MC : "rgb(255, 63, 0)";
     z-index: 1000;
     >.header-con {
       position: relative;
-      width:1680px;
+      width:100%;
       height: 60px;
       margin: 0 auto;
       // border: 1px solid #00f;
@@ -224,10 +224,9 @@ $MC : "rgb(255, 63, 0)";
         display: block;
         position: absolute;
         top: 20px;
-        right: 50px;
+        right: 5%;
         @media #{$mobile}{
           width: 100%;
-          
           display: none;
         }
         >.gnb {
@@ -235,7 +234,6 @@ $MC : "rgb(255, 63, 0)";
           flex-flow: row nowrap;
           justify-content: space-between;
           @media #{$mobile}{
-            // display: none;
             flex-flow: column nowrap;
             position: absolute;
             top: 41px;
@@ -328,12 +326,11 @@ $MC : "rgb(255, 63, 0)";
     position: relative;
     height: 1020px;
     width: 100%;
-    // border: 1px solid #f00;
     >h2 {
       position: absolute;
       right: 50%;
       bottom: 365px;
-      margin-right: -800px;
+      margin-right: -48%;
       color : #{$MC};
       font-size: 80px;
       font-weight: 900;
@@ -343,6 +340,7 @@ $MC : "rgb(255, 63, 0)";
         top: 700px;
         left: 30px;
         width: 300px;
+        margin-right: initial;
         font-size: 55px;
         z-index: -1;
       }
@@ -415,7 +413,7 @@ $MC : "rgb(255, 63, 0)";
       top: 120px;
       right: 50%;
       width: 800px;
-      margin-right: -800px;
+      margin-right: -48%;
       @media #{$mobile} {
         width: 95%;
         right: 12px;
@@ -435,13 +433,10 @@ $MC : "rgb(255, 63, 0)";
       >p {
         position: absolute;
         left: 50%;
-        margin-left: -780px;
+        margin-left: -48%;
         @media #{$mobile} {
           left: 0;
-          width: 550px;
           margin: 0;
-          // border: 1px solid #000;
-          
         }
         &:nth-of-type(1) {
           position: relative;
@@ -449,7 +444,6 @@ $MC : "rgb(255, 63, 0)";
           font-size: 20px;
           font-weight: 700;
           @media #{$mobile} {
-
             display: none;
           }
           &::before {
@@ -470,8 +464,9 @@ $MC : "rgb(255, 63, 0)";
           font-weight: 500;
           line-height: 26px;
           @media #{$mobile} {
-            top: 450px;
+            top: 380px;
             left: 30px;
+            width: 85%;
             font-size: 13px;
             line-height: 22px;
           }
@@ -702,13 +697,16 @@ $MC : "rgb(255, 63, 0)";
     width: 100%;
     height: 2000px;
     border-top: 1px solid #fff;
+    @media #{$mobile} {
+      height: 2400px;
+    }
     >.project-con {
       position: relative;
       left: 50%;
-      width: 1550px;
+      width: 95%;
       height: 400px;
-      margin: 270px 0 300px -775px;
-      
+      margin: 270px 0 300px;
+      margin-left: -48%;
       @media #{$mobile} {
         left: 0;
         width: 100%;
@@ -793,7 +791,7 @@ $MC : "rgb(255, 63, 0)";
       margin: 0 auto;
       @media #{$mobile} {
         width: 100%;
-        height: 1300px;
+        height: 1500px;
         flex-direction: column;
       }
       >article { 
@@ -806,7 +804,7 @@ $MC : "rgb(255, 63, 0)";
         @media #{$mobile} {
           left: 50%;
           width: 80%;
-          height: 300px;
+          height: 365px;
           margin-left: -40%;
         }
         >.number {
@@ -856,7 +854,7 @@ $MC : "rgb(255, 63, 0)";
           background-blend-mode: multiply;
           @media #{$mobile} {
             width:92%;
-            height: 270px;
+            height: 330px;
             top:5%;
             left: 4%;
             margin: 0;
