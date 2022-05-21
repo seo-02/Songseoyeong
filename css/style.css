@@ -427,7 +427,7 @@
   bottom: 150px;
   width: 400px;
   height: 130px;
-  margin-right: -415px;
+  margin-right: -27%;
   font-size: 15px;
 }
 
@@ -481,6 +481,7 @@
   right: -35px;
   width: 30px;
   height: 30px;
+  z-index: 500;
   background-image: url(./../images/pn_hover_profile.svg);
 }
 
@@ -493,6 +494,7 @@
 
 #wrap section.aboutMe > .profile > .profile-btn:hover {
   background-image: url(./../images/pn_profile.svg);
+  cursor: url(./../etc/pointing_hand.cur), auto;
 }
 
 #wrap section.aboutMe > .image {
@@ -529,7 +531,7 @@
 #wrap section.aboutMe > .introduce > p {
   position: absolute;
   left: 50%;
-  margin-left: -48%;
+  margin-left: -46%;
 }
 
 @media screen and (max-width: 640px) {
