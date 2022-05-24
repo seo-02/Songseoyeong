@@ -1339,7 +1339,7 @@
 }
 
 #wrap section.project > .pj-arti-con > article.Anobrand:hover > .number {
-  color: #ffd900;
+  -webkit-text-fill-color: #ffd900;
 }
 
 #wrap section.project > .pj-arti-con > article.Aorion > .article-con {
@@ -1351,7 +1351,7 @@
 }
 
 #wrap section.project > .pj-arti-con > article.Aorion:hover > .number {
-  color: red;
+  -webkit-text-fill-color: red;
 }
 
 #wrap section.project > .pj-arti-con > article.Ala > .article-con {
@@ -1363,7 +1363,7 @@
 }
 
 #wrap section.project > .pj-arti-con > article.Ala:hover > .number {
-  color: orange;
+  -webkit-text-fill-color: orange;
 }
 
 #wrap section.project > .pj-arti-con > article.Amonami > .article-con {
@@ -1376,7 +1376,7 @@
 }
 
 #wrap section.project > .pj-arti-con > article.Amonami:hover > .number {
-  color: #27c500;
+  -webkit-text-fill-color: #27c500;
 }
 
 #wrap section.clone {
