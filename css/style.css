@@ -423,11 +423,10 @@
 
 #wrap section.aboutMe > .profile {
   position: absolute;
-  right: 50%;
+  right: 5%;
   bottom: 150px;
   width: 400px;
   height: 130px;
-  margin-right: -27%;
   font-size: 15px;
 }
 
@@ -733,7 +732,6 @@
   position: absolute;
   top: 230px;
   left: 50%;
-  width: 800px;
   margin-left: -400px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1027,7 +1025,7 @@
 }
 
 #wrap section.project > .project-con > h2 {
-  width: 830px;
+  width: 1000px;
   height: 200px;
   color: rgb(180, 180, 180);
   line-height: 100px;
@@ -1112,7 +1110,7 @@
 }
 
 #wrap section.project > .pj-arti-con {
-  width: 1280px;
+  width: 95%;
   height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1121,10 +1119,11 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 0 auto;
+  border: 1px solid #000;
 }
 
 @media screen and (max-width: 640px) {
@@ -1140,7 +1139,7 @@
 
 #wrap section.project > .pj-arti-con > article {
   position: relative;
-  width: 600px;
+  width: 550px;
   height: 400px;
   background-color: #ccc;
   border-radius: 20px;
@@ -1201,9 +1200,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 560px;
+  width: 510px;
   height: 360px;
-  margin: -180px 0 0 -280px;
+  margin: -180px 0 0 -255px;
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
