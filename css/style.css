@@ -1000,6 +1000,12 @@
   border-top: 1px solid #fff;
 }
 
+@media screen and (max-width: 1140px) {
+  #wrap section.project {
+    height: 2600px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   #wrap section.project {
     height: 2400px;
@@ -1143,6 +1149,12 @@
   background-color: #ccc;
   border-radius: 20px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1140px) {
+  #wrap section.project > .pj-arti-con > article {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 640px) {
